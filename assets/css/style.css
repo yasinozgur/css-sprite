@@ -1,0 +1,20 @@
+body {
+  width: 600px;
+  margin: 50px auto;
+}
+
+label div{
+  background: url("../images/toggle.webp") no-repeat;
+  background-color: #333;
+  width: 225px;
+  height: 90px;
+  cursor: pointer;
+  background-position: -107px -267px;
+  border-radius: 50px;
+}
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"]:checked ~ label div{
+  background-position: -107px -392px;
+}
